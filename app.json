@@ -4,8 +4,8 @@
     "keywords": ["Dfnardn"],
     "env": {
         "IP": {
-            "description": "",
-            "value": ""
+            "description": "IP",
+            "value": "https://www.zzuc.net/"
         }
     },
     "stack": "container"
