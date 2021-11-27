@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM centos:latest
 
 ADD SYN /opt/SYN
 
