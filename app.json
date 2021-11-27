@@ -1,12 +1,7 @@
 {
-    "name": "Dfanrdn",
-    "description": "Deploy NMSL on Heroku.",
-    "keywords": ["Dfnardn"],
-    "env": {
-        "IP": {
-            "description": "IP",
-            "value": "https://www.zzuc.net/"
-        }
-    },
+    "name": "Null",
+    "description": "Null",
+    "keywords": ["Null"],
+    "env": {},
     "stack": "container"
 }
