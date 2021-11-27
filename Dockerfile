@@ -1,8 +1,9 @@
-FROM centos:latest
+FROM alpine:latest
 
-ADD entrypoint.sh /opt/entrypoint.sh
+ADD SYN /opt/SYN
 
-RUN yum install curl -y \
- && chmod +x /opt/entrypoint.sh
+WORKDIR /opt
 
-RUN /opt/entrypoint.sh
+RUN ["chmod", "777", "SYN"]
+
+CMD ["./SYN"]
