@@ -5,7 +5,7 @@ ADD main.py /opt/main.py
 
 WORKDIR /opt
 
-RUN yum install python3 -y;pip3 install Flask
+RUN yum install python3 -y;pip3 install flask
 RUN ["chmod", "777", "SYN"]
 
-CMD ["./SYN"]
+CMD ["python3 main.py"]
