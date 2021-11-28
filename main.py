@@ -8,4 +8,5 @@ def hello_world():
     return 'hello world'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=8080)
+    PORT = os.popen('echo $PORT').readlines()
+    app.run(host='0.0.0.0',port=int(PORT[0]))
